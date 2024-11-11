@@ -302,7 +302,7 @@ ul {
 
 .button._1 {
   border-width: 1.5px;
-  width: 15.5rem;
+  width: 15rem;
 }
 
 .button._2 {
@@ -1529,6 +1529,7 @@ ul {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    display: none;
     position: fixed;
     inset: 0%;
   }
