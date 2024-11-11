@@ -1576,10 +1576,6 @@ ul {
     display: block;
   }
 
-  .menu-link.w--current, .menu-link._1.w--current, .menu-link._2.w--current {
-    color: var(--ttp-blue);
-  }
-
   .hamburger-wrapper {
     cursor: pointer;
     margin-right: -1rem;
