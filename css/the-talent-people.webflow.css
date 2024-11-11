@@ -1661,6 +1661,25 @@ ul {
     position: absolute;
     inset: 0%;
   }
+
+  .menu-link-contact {
+    transform-origin: 0 0;
+    color: var(--ttp-white);
+    letter-spacing: -.2rem;
+    margin-top: -.2rem;
+    margin-bottom: -.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "Nhaasgrotesktxpro 65 Md", sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.7rem;
+    display: block;
+  }
+
+  .menu-link-contact._1.w--current, .menu-link-contact._2.w--current {
+    color: var(--ttp-blue);
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2388,6 +2407,15 @@ ul {
     grid-row-gap: .5rem;
     margin-right: 1.5rem;
     padding-top: 1.5rem;
+  }
+
+  .menu-link-contact {
+    margin-top: -.4rem;
+    margin-bottom: -.4rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    font-size: 3.7rem;
+    line-height: 4.9rem;
   }
 }
 
