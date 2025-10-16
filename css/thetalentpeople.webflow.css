@@ -1472,6 +1472,11 @@ ul {
   text-align: center;
 }
 
+.section-text-jsit.event {
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+
 .nav-button-jsit {
   color: #fff;
   border-radius: 15px;
@@ -1946,22 +1951,6 @@ ul {
   line-height: 1.5rem;
 }
 
-.event-text-jsit {
-  font-family: "Inter 18 Pt", Arial, sans-serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  text-decoration: none;
-}
-
-.event-text-jsit.white {
-  color: #fff;
-}
-
-.event-text-jsit.center-align {
-  text-align: center;
-}
-
 @media screen and (min-width: 1280px) {
   .hero-word {
     font-size: 6rem;
@@ -2111,11 +2100,6 @@ ul {
 
   .flipcard-icon {
     width: 30px;
-  }
-
-  .event-text-jsit {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
   }
 }
 
@@ -2608,11 +2592,6 @@ ul {
     font-size: 1.4rem;
     line-height: 1.4rem;
   }
-
-  .event-text-jsit {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3097,7 +3076,7 @@ ul {
     width: 13vw;
   }
 
-  .section-text-jsit {
+  .section-text-jsit, .section-text-jsit.event {
     font-size: 1.1rem;
     line-height: 1.3rem;
   }
@@ -3305,11 +3284,6 @@ ul {
   .cta-button-blue, .cta-button-purple {
     padding: .9rem 2.7rem;
     font-size: 1.3rem;
-    line-height: 1.3rem;
-  }
-
-  .event-text-jsit {
-    font-size: 1.1rem;
     line-height: 1.3rem;
   }
 }
@@ -3679,6 +3653,11 @@ ul {
     line-height: 1.2rem;
   }
 
+  .section-text-jsit.event {
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+
   .nav-button-jsit {
     height: 3.7rem;
     font-size: 1.4rem;
@@ -3734,7 +3713,13 @@ ul {
     width: 37vw;
   }
 
-  .event-right-jsit, .event-left-jsit {
+  .event-right-jsit {
+    height: 65px;
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+
+  .event-left-jsit {
     height: 65px;
   }
 
@@ -3859,11 +3844,6 @@ ul {
     padding: .8rem 2rem;
     font-size: 1.2rem;
     line-height: 1.2rem;
-  }
-
-  .event-text-jsit {
-    font-size: .9rem;
-    line-height: 1rem;
   }
 
   #w-node-fc1f332f-eff6-4715-5024-9d46038ac8af-cd0a73c6 {
