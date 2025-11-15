@@ -1363,8 +1363,8 @@ ul {
 }
 
 .brand-2 {
-  width: 10vw;
-  margin-top: -.5vw;
+  width: 9vw;
+  margin-top: -1.5vw;
   margin-right: -2vw;
 }
 
@@ -1388,7 +1388,6 @@ ul {
 
 .brand-3 {
   width: 7vw;
-  margin-top: -3vw;
   margin-left: -1vw;
 }
 
@@ -1406,7 +1405,11 @@ ul {
   font-family: "Inter 18 Pt", Arial, sans-serif;
   font-size: 2rem;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 2.2rem;
+}
+
+.heading-jsit.employee {
+  color: var(--_jsit-colors---blue);
 }
 
 .sub-heading-jsit {
@@ -1421,6 +1424,7 @@ ul {
 }
 
 .button-wrapper-jsit {
+  z-index: 2;
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   justify-content: space-between;
@@ -1445,8 +1449,7 @@ ul {
 }
 
 .brand-5 {
-  width: 9vw;
-  margin-top: .5vw;
+  width: 5vw;
 }
 
 .hero-shadow-jsit {
@@ -1512,7 +1515,7 @@ ul {
   width: 8vw;
 }
 
-.about-us-jsit {
+.cta-button-jsit {
   color: #fff;
   background-color: #8e61db;
   border-radius: 10px;
@@ -1521,6 +1524,10 @@ ul {
   font-size: 1.3rem;
   font-weight: 600;
   line-height: 1.5rem;
+}
+
+.cta-button-jsit.employee {
+  background-color: var(--_jsit-colors---blue);
 }
 
 .brand-image-jsit {
@@ -1538,7 +1545,7 @@ ul {
 }
 
 .brand-6 {
-  width: 12vw;
+  width: 10vw;
 }
 
 .count-jsit {
@@ -1639,7 +1646,7 @@ ul {
 }
 
 .header-wrapper-jsit {
-  z-index: 1;
+  z-index: 2;
   width: 90vw;
   max-width: 1200px;
   margin-top: 2rem;
@@ -1800,9 +1807,12 @@ ul {
 
 .hero-image-jsit {
   object-fit: cover;
-  object-position: 50% 30%;
   width: 100%;
   height: 100%;
+}
+
+.hero-image-jsit._1, .hero-image-jsit._2 {
+  object-position: 40% 50%;
 }
 
 .flipcard-image-jsit {
@@ -1951,6 +1961,21 @@ ul {
   line-height: 1.5rem;
 }
 
+.hero-slider-jsit, .hero-slide-wrapper-jsit, .hero-slide-jsit {
+  width: 100%;
+  height: 100%;
+}
+
+.left-arrow, .right-arrow {
+  display: none;
+}
+
+.hero-slider-nav-jsit {
+  margin-bottom: 3rem;
+  font-size: .9rem;
+  line-height: .9rem;
+}
+
 @media screen and (min-width: 1280px) {
   .hero-word {
     font-size: 6rem;
@@ -1983,14 +2008,13 @@ ul {
   }
 
   .brand-2 {
-    width: 140px;
-    margin-top: -5px;
+    width: 120px;
+    margin-top: -20px;
     margin-right: -20px;
   }
 
   .brand-3 {
     width: 90px;
-    margin-top: -40px;
     margin-left: -10px;
   }
 
@@ -2004,8 +2028,7 @@ ul {
   }
 
   .brand-5 {
-    width: 110px;
-    margin-top: 7px;
+    width: 65px;
   }
 
   .section-text-jsit {
@@ -2028,7 +2051,7 @@ ul {
   }
 
   .brand-6 {
-    width: 150px;
+    width: 130px;
   }
 
   .brand-7 {
@@ -2068,6 +2091,10 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .hero-image-jsit._1 {
+    object-position: 50% 50%;
+  }
+
   .flipcard-right-jsit {
     grid-column-gap: .7rem;
     grid-row-gap: .7rem;
@@ -2100,6 +2127,10 @@ ul {
 
   .flipcard-icon {
     width: 30px;
+  }
+
+  .hero-slider-nav-jsit {
+    margin-bottom: 4rem;
   }
 }
 
@@ -2431,9 +2462,19 @@ ul {
     line-height: 1.6rem;
   }
 
+  .heading-jsit.adjust {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
   .sub-heading-jsit {
     font-size: 1.2rem;
     line-height: 1.5rem;
+  }
+
+  .sub-heading-jsit.dt-tb.adjust {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
   }
 
   .button-wrapper-jsit {
@@ -2442,7 +2483,7 @@ ul {
   }
 
   .hero-jsit {
-    height: 85svh;
+    height: 65svh;
   }
 
   .section-text-jsit {
@@ -2456,10 +2497,15 @@ ul {
     line-height: 1.8rem;
   }
 
-  .about-us-jsit {
+  .cta-button-jsit {
     padding: .7rem 2.3rem;
     font-size: 1.2rem;
     line-height: 1.2rem;
+  }
+
+  .cta-button-jsit.adjust {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
   }
 
   .hero-overlay-jsit {
@@ -2539,6 +2585,26 @@ ul {
     bottom: auto;
   }
 
+  .hero-image-jsit._1 {
+    object-position: 30% 50%;
+  }
+
+  .hero-image-jsit._3 {
+    object-position: 40% 50%;
+  }
+
+  .hero-image-jsit._4, .hero-image-jsit._6 {
+    object-position: 60% 50%;
+  }
+
+  .hero-image-jsit._7 {
+    object-position: 40% 50%;
+  }
+
+  .hero-image-jsit._8, .hero-image-jsit._9 {
+    object-position: 30% 50%;
+  }
+
   .flipcard-label-jsit {
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -2591,6 +2657,11 @@ ul {
   .cta-button-blue, .cta-button-purple {
     font-size: 1.4rem;
     line-height: 1.4rem;
+  }
+
+  .hero-slider-nav-jsit {
+    font-size: .8rem;
+    line-height: .8rem;
   }
 }
 
@@ -3028,11 +3099,13 @@ ul {
   }
 
   .brand-2 {
-    width: 18vw;
+    width: 15vw;
+    margin-top: -3vw;
   }
 
   .brand-3 {
     width: 12vw;
+    margin-top: -1vw;
   }
 
   .brand-12 {
@@ -3043,7 +3116,7 @@ ul {
     width: 25vw;
   }
 
-  .heading-jsit {
+  .heading-jsit, .heading-jsit.adjust {
     font-size: 1.4rem;
     line-height: 1.4rem;
   }
@@ -3073,7 +3146,7 @@ ul {
   }
 
   .brand-5 {
-    width: 13vw;
+    width: 8.5vw;
   }
 
   .section-text-jsit, .section-text-jsit.event {
@@ -3092,7 +3165,7 @@ ul {
     width: 12vw;
   }
 
-  .about-us-jsit {
+  .cta-button-jsit {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     font-size: 1rem;
@@ -3109,7 +3182,7 @@ ul {
   }
 
   .brand-6 {
-    width: 17vw;
+    width: 15vw;
   }
 
   .count-jsit {
@@ -3232,8 +3305,36 @@ ul {
     bottom: 10vw;
   }
 
-  .hero-image-jsit {
-    object-position: 47% 50%;
+  .hero-image-jsit._2 {
+    object-position: 20% 50%;
+  }
+
+  .hero-image-jsit._3 {
+    object-position: 50% 50%;
+  }
+
+  .hero-image-jsit._4 {
+    object-position: 55% 50%;
+  }
+
+  .hero-image-jsit._5 {
+    object-position: 45% 50%;
+  }
+
+  .hero-image-jsit._6 {
+    object-position: 70% 50%;
+  }
+
+  .hero-image-jsit._7 {
+    object-position: 35% 50%;
+  }
+
+  .hero-image-jsit._8 {
+    object-position: 40% 50%;
+  }
+
+  .hero-image-jsit._9 {
+    object-position: 15% 50%;
   }
 
   .flipcard-right-jsit {
@@ -3285,6 +3386,10 @@ ul {
     padding: .9rem 2.7rem;
     font-size: 1.3rem;
     line-height: 1.3rem;
+  }
+
+  .hero-slider-nav-jsit {
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -3631,13 +3736,19 @@ ul {
     line-height: 1.3rem;
   }
 
+  .heading-jsit.adjust {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+  }
+
   .sub-heading-jsit {
     font-size: .95rem;
     line-height: 1.1rem;
   }
 
   .sub-heading-jsit.mb {
-    font-size: .95rem;
+    font-size: .9rem;
+    line-height: 1rem;
   }
 
   .hero-jsit {
@@ -3645,7 +3756,7 @@ ul {
   }
 
   .brand-5 {
-    width: 20vw;
+    width: 12.5vw;
   }
 
   .section-text-jsit {
@@ -3668,9 +3779,16 @@ ul {
     width: 18vw;
   }
 
-  .about-us-jsit {
+  .cta-button-jsit {
     font-size: .95rem;
     line-height: .95rem;
+  }
+
+  .cta-button-jsit.adjust {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: .9rem;
+    line-height: .9rem;
   }
 
   .brand-15 {
@@ -3682,7 +3800,7 @@ ul {
   }
 
   .brand-6 {
-    width: 25vw;
+    width: 23vw;
   }
 
   .brand-7 {
@@ -3796,8 +3914,16 @@ ul {
     bottom: 12vw;
   }
 
-  .hero-image-jsit {
+  .hero-image-jsit._4 {
+    object-position: 60% 50%;
+  }
+
+  .hero-image-jsit._8 {
     object-position: 45% 50%;
+  }
+
+  .hero-image-jsit._9 {
+    object-position: 25% 50%;
   }
 
   .flipcard-label-jsit {
@@ -3844,6 +3970,12 @@ ul {
     padding: .8rem 2rem;
     font-size: 1.2rem;
     line-height: 1.2rem;
+  }
+
+  .hero-slider-nav-jsit {
+    margin-bottom: 2rem;
+    font-size: .7rem;
+    line-height: .7rem;
   }
 
   #w-node-fc1f332f-eff6-4715-5024-9d46038ac8af-cd0a73c6 {
