@@ -3159,7 +3159,7 @@ ul {
     display: block;
   }
 
-  .menu-link._1.w--current {
+  .menu-link._1.w--current, .menu-link._2.w--current, .menu-link._3.w--current, .menu-link._4.w--current {
     color: var(--ttp-blue);
   }
 
