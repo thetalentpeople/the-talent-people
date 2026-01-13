@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Jan 12 2026 17:33:27 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Jan 13 2026 14:12:21 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="69433633640f5ac74eb1c271" data-wf-site="69433633640f5ac74eb1c27f">
 <head>
   <meta charset="utf-8">
@@ -21,6 +21,9 @@
      -moz-osx-font-smoothing: grayscale;
      font-smoothing: antialiased;
      text-rendering: optimizeLegibility;
+}
+.menu-item .menu-link[aria-current="page"] {
+  color: #2354c6; /* blue */
 }
 </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
@@ -65,7 +68,7 @@ select {
   <header bind="6ed626e9-749d-8f9c-2689-f4c2792ef79f" class="header">
     <nav class="nav">
       <div class="nav-wrapper">
-        <a href="index.html" aria-current="page" class="nav-left w-inline-block w--current"><img src="images/ttp-logo-white.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.98265075683594px, 239.95660400390625px" srcset="images/35989bd0c9b2e54581e3e6724d7182c8_ttp-logo-white-p-500.webp 500w, images/ttp-logo-white.webp 558w" alt="The Talent People - White Logo" id="logo-white" class="logo-white"><img src="images/ttp-logo-blue.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.98265075683594px, 239.95660400390625px" srcset="images/a3a8660db32382a60730273d2a6b0034_ttp-logo-blue-p-500.webp 500w, images/ttp-logo-blue.webp 558w" alt="The Talent People - Blue Logo" class="logo-blue">
+        <a href="index.html" aria-current="page" class="nav-left w-inline-block w--current"><img src="images/ttp-logo-white.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.98265075683594px, 239.98265075683594px" srcset="images/35989bd0c9b2e54581e3e6724d7182c8_ttp-logo-white-p-500.webp 500w, images/ttp-logo-white.webp 558w" alt="The Talent People - White Logo" id="logo-white" class="logo-white"><img src="images/ttp-logo-blue.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.98265075683594px, 239.98265075683594px" srcset="images/a3a8660db32382a60730273d2a6b0034_ttp-logo-blue-p-500.webp 500w, images/ttp-logo-blue.webp 558w" alt="The Talent People - Blue Logo" class="logo-blue">
           <h1 class="ttp-logo-text">The Talent People</h1>
         </a>
         <div class="nav-center">
@@ -121,8 +124,8 @@ select {
   <div style="opacity:1;display:flex" class="preloader">
     <div class="logo-container">
       <div class="logo-wrapper">
-        <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="top-window"><img src="images/preloader-logo.webp" loading="lazy" style="opacity:0;-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 100vw, 239.9913330078125px" alt="The Talent People - Preloader Logo" srcset="images/a29441e25594c8d458450a5b3f4f811f_preloader-logo-p-500.webp 500w, images/preloader-logo.webp 600w" class="preloader-logo top"></div>
-        <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="bottom-window"><img src="images/preloader-logo.webp" loading="lazy" style="-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 100vw, 239.9913330078125px" alt="The Talent People - Preloader Logo" srcset="images/a29441e25594c8d458450a5b3f4f811f_preloader-logo-p-500.webp 500w, images/preloader-logo.webp 600w" class="preloader-logo bottom"></div>
+        <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="top-window"><img src="images/preloader-logo.webp" loading="lazy" style="opacity:0;-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="100vw" alt="The Talent People - Preloader Logo" srcset="images/a29441e25594c8d458450a5b3f4f811f_preloader-logo-p-500.webp 500w, images/preloader-logo.webp 600w" class="preloader-logo top"></div>
+        <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="bottom-window"><img src="images/preloader-logo.webp" loading="lazy" style="-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="100vw" alt="The Talent People - Preloader Logo" srcset="images/a29441e25594c8d458450a5b3f4f811f_preloader-logo-p-500.webp 500w, images/preloader-logo.webp 600w" class="preloader-logo bottom"></div>
       </div>
       <div class="curtain"></div>
     </div>
@@ -152,7 +155,7 @@ select {
           <div style="-webkit-transform:translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="hero-word _2">on</div>
           <div style="-webkit-transform:translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="hero-word _3">demand</div>
         </div>
-        <div class="button-wrapper center-align">
+        <div class="button-wrapper center-align hide">
           <a data-w-id="0bf924e9-7b7f-fd3c-ef72-8100764ac853" style="opacity:0;border-color:rgb(246,237,219)" href="talent.html" class="button _1 w-inline-block">
             <div style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-text large">For Talent</div><img src="images/link-arrow-white.svg" loading="lazy" style="-webkit-transform:translate3d(300%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(300%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(300%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(300%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="The Talent People - White Arrow" class="button-arrow">
             <div class="button-overlay blue"></div>
@@ -176,7 +179,7 @@ select {
       <div class="s1-wrapper">
         <div data-w-id="d6038368-179e-0afd-70d9-c8c7cf863012" class="s1-card">
           <div class="s1-card-top">
-            <h3 class="card-heading">Talent</h3><img src="images/the-talent-people-talent.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.9913330078125px" srcset="images/the-talent-people-talent-p-500.webp 500w, images/the-talent-people-talent.webp 600w" alt="" class="s1-image">
+            <h3 class="card-heading">Talent</h3><img src="images/the-talent-people-talent.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.9913330078125px" srcset="images/the-talent-people-talent-p-500.webp 500w, images/the-talent-people-talent.webp 600w" alt="The Talent People - Talent Icon" class="s1-image">
           </div>
           <div class="s1-card-bottom">
             <h4 class="card-small-heading">Empowering and unlocking your potential.</h4>
@@ -191,7 +194,7 @@ select {
         </div>
         <div data-w-id="417dd5b4-e60d-e06a-4493-7cba1a473a4a" class="s1-card">
           <div class="s1-card-top">
-            <h3 class="card-heading">Employer</h3><img src="images/the-talent-people-employer.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.9913330078125px" srcset="images/the-talent-people-employer-p-500.webp 500w, images/the-talent-people-employer.webp 600w" alt="" class="s1-image">
+            <h3 class="card-heading">Employer</h3><img src="images/the-talent-people-employer.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.9913330078125px" srcset="images/the-talent-people-employer-p-500.webp 500w, images/the-talent-people-employer.webp 600w" alt="The Talent People - Employer Icon" class="s1-image">
           </div>
           <div class="s1-card-bottom">
             <h4 class="card-small-heading">Flexible talent solutions tailored for your business.</h4>
@@ -220,11 +223,11 @@ select {
       <div class="s2-wrapper">
         <div class="s2-card">
           <div class="s2-card-top">
-            <h3 class="card-heading">What we&#x27;re great at</h3>
+            <h3 class="card-heading">What we&#x27;re great at.</h3>
             <p class="text-body s2">We combine speed, flexibility, and real-world insights to help you fill roles and kickstart projects, fast.</p>
           </div>
           <div class="s2-card-bottom">
-            <div class="s2-card-inner"><img src="images/the-talent-people-recruitment.webp" loading="lazy" data-w-id="a8531cf1-105c-3b7f-7fb7-0278e5f597fa" sizes="(max-width: 479px) 100vw, 240.00001525878906px" alt="" srcset="images/the-talent-people-recruitment-p-500.webp 500w, images/the-talent-people-recruitment.webp 800w" class="s2-card-image _1"><img src="images/the-talent-people-advertising-and-outreach.webp" loading="lazy" data-w-id="b9077626-919b-484e-989c-1eb0c0bd3afb" sizes="(max-width: 479px) 100vw, 240.00001525878906px" alt="" srcset="images/the-talent-people-advertising-and-outreach-p-500.webp 500w, images/the-talent-people-advertising-and-outreach.webp 800w" class="s2-card-image _2"><img src="images/the-talent-people-brand-and-creative.webp" loading="lazy" data-w-id="1e387fe9-fc6d-d528-3408-6e08e0ef61fc" sizes="(max-width: 479px) 100vw, 240.00001525878906px" alt="" srcset="images/the-talent-people-brand-and-creative-p-500.webp 500w, images/the-talent-people-brand-and-creative.webp 800w" class="s2-card-image _3"><img src="images/the-talent-people-project-management-and-web-design.webp" loading="lazy" data-w-id="16092ca4-2ae5-043e-cf4c-e098998f2e10" sizes="(max-width: 479px) 100vw, 240.00001525878906px" alt="" srcset="images/the-talent-people-project-management-and-web-design-p-500.webp 500w, images/the-talent-people-project-management-and-web-design.webp 800w" class="s2-card-image _4"></div>
+            <div class="s2-card-inner"><img src="images/the-talent-people-recruitment.webp" loading="lazy" data-w-id="a8531cf1-105c-3b7f-7fb7-0278e5f597fa" sizes="(max-width: 479px) 100vw, 384.0017395019531px" alt="The Talent People - Recruitment" srcset="images/the-talent-people-recruitment-p-500.webp 500w, images/the-talent-people-recruitment.webp 800w" class="s2-card-image _1"><img src="images/the-talent-people-advertising-and-outreach.webp" loading="lazy" data-w-id="b9077626-919b-484e-989c-1eb0c0bd3afb" sizes="(max-width: 479px) 100vw, 384.0017395019531px" alt="The Talent People - Advertising &amp; Outreach" srcset="images/the-talent-people-advertising-and-outreach-p-500.webp 500w, images/the-talent-people-advertising-and-outreach.webp 800w" class="s2-card-image _2"><img src="images/the-talent-people-brand-and-creative.webp" loading="lazy" data-w-id="1e387fe9-fc6d-d528-3408-6e08e0ef61fc" sizes="(max-width: 479px) 100vw, 384.0017395019531px" alt="The Talent People - Brand &amp; Creative" srcset="images/the-talent-people-brand-and-creative-p-500.webp 500w, images/the-talent-people-brand-and-creative.webp 800w" class="s2-card-image _3"><img src="images/the-talent-people-project-management-and-web-design.webp" loading="lazy" data-w-id="16092ca4-2ae5-043e-cf4c-e098998f2e10" sizes="(max-width: 479px) 100vw, 384.0017395019531px" alt="The Talent People - Project Management &amp; Web Design" srcset="images/the-talent-people-project-management-and-web-design-p-500.webp 500w, images/the-talent-people-project-management-and-web-design.webp 800w" class="s2-card-image _4"></div>
             <div class="s2-card-inner">
               <div data-hover="false" data-delay="0" data-w-id="a168b40a-47b6-f274-e205-ad42f25327f6" class="s2-dd _1 w-dropdown">
                 <div class="s2-dd-toggle w-dropdown-toggle">
@@ -232,7 +235,7 @@ select {
                   <h4 data-w-id="a168b40a-47b6-f274-e205-ad42f25327f9" class="s2-dd-heading">Recruitment</h4>
                 </div>
                 <nav class="s2-dd-list w-dropdown-list">
-                  <p class="text-body">From Full-time  hires to gig contracts, we help you find the right talent at the right time.</p>
+                  <p class="text-body">From full-time  hires to gig contracts, we help you find the right talent at the right time.</p>
                 </nav>
               </div>
               <div data-hover="false" data-delay="0" data-w-id="edc79750-2d33-b245-092f-ec9ed20a4da7" class="s2-dd _2 w-dropdown">
@@ -295,7 +298,7 @@ select {
     </section>
     <section data-w-id="d4fd5f88-0b07-e42b-1d7b-13449eda9ecc" class="section-4">
       <div class="s4-wrapper">
-        <div id="w-node-af270114-282c-4e94-a85e-9d3929084e3f-4eb1c271" class="s4-left"><img src="images/jsit-pe-landing-page.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 240.00001525878906px" srcset="images/jsit-pe-landing-page-p-500.webp 500w, images/jsit-pe-landing-page-p-800.webp 800w, images/jsit-pe-landing-page.webp 1000w" alt="" class="s4-image"></div>
+        <div id="w-node-af270114-282c-4e94-a85e-9d3929084e3f-4eb1c271" class="s4-left"><img src="images/jsit-pe-landing-page.webp" loading="lazy" alt="The Talent People - Precision Engineering" class="s4-image"></div>
         <div class="s4-right">
           <div class="header-wrapper s4">
             <div class="header-top"><img src="images/dot.webp" loading="lazy" alt="The Talent People - Blue Dot" class="dot">
@@ -303,11 +306,11 @@ select {
             </div>
             <div class="header-bottom s4">
               <h3 class="sub-heading s4">Supporting Singapore&#x27;s Precision Engineering sector.</h3>
-              <div class="image-wrapper"><img src="images/jsit-pe-landing-page-tb-mb.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.9913330078125px" srcset="images/jsit-pe-landing-page-tb-mb-p-500.webp 500w, images/jsit-pe-landing-page-tb-mb-p-800.webp 800w, images/jsit-pe-landing-page-tb-mb-p-1080.webp 1080w, images/jsit-pe-landing-page-tb-mb.webp 1500w" alt="" class="s4-image-tb-mb"></div>
+              <div class="image-wrapper"><img src="images/jsit-pe-landing-page-tb-mb.webp" loading="lazy" sizes="100vw" srcset="images/jsit-pe-landing-page-tb-mb-p-500.webp 500w, images/jsit-pe-landing-page-tb-mb-p-800.webp 800w, images/jsit-pe-landing-page-tb-mb-p-1080.webp 1080w, images/jsit-pe-landing-page-tb-mb.webp 1500w" alt="The Talent People - Precision Engineering" class="s4-image-tb-mb"></div>
               <p class="text-body s4">Appointed the official hiring support partner for Job-Skills Integrator for Precision Engineering (JSIT-PE), a Government initiative established to help employers in the PE sector hire smarter and tap into Government-backed workforce initiatives.</p>
             </div>
             <div class="button-wrapper _4">
-              <a data-w-id="8d9ee3c9-5647-b868-febf-5e1d6a1a470d" href="employers.html" class="button _4 w-inline-block">
+              <a data-w-id="8d9ee3c9-5647-b868-febf-5e1d6a1a470d" href="jsit-pe.html" class="button _4 w-inline-block">
                 <div style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);color:rgb(20,30,43)" class="button-text _3">Find out more</div><img src="images/link-arrow-white.svg" loading="lazy" alt="The Talent People - White Arrow" class="button-arrow _3">
                 <div class="button-overlay navy"></div>
               </a>
@@ -327,44 +330,44 @@ select {
       </div>
       <div class="s5-wrapper">
         <div class="s5-marquee">
-          <div class="s5-card"><img src="images/the-talent-people-lite-on.webp" loading="lazy" alt="" class="s5-logo _1"></div>
-          <div class="s5-card"><img src="images/the-talent-people-edmund-optics-singapore.webp" loading="lazy" alt="" class="s5-logo _2"></div>
-          <div class="s5-card"><img src="images/the-talent-people-makino.webp" loading="lazy" alt="" class="s5-logo _3"></div>
-          <div class="s5-card"><img src="images/the-talent-people-ame-international.webp" loading="lazy" alt="" class="s5-logo _4"></div>
-          <div class="s5-card"><img src="images/the-talent-people-fuyu-corporation.webp" loading="lazy" alt="" class="s5-logo _5"></div>
-          <div class="s5-card"><img src="images/the-talent-people-kulicke-and-soffa.webp" loading="lazy" alt="" class="s5-logo _6"></div>
-          <div class="s5-card"><img src="images/the-talent-people-pratt-and-whitney.webp" loading="lazy" alt="" class="s5-logo _7"></div>
-          <div class="s5-card"><img src="images/the-talent-people-beyonics.webp" loading="lazy" alt="" class="s5-logo _8"></div>
-          <div class="s5-card"><img src="images/the-talent-people-yokogawa.webp" loading="lazy" alt="" class="s5-logo _9"></div>
-          <div class="s5-card"><img src="images/the-talent-people-royal-golden-eagle.webp" loading="lazy" alt="" class="s5-logo _10"></div>
-          <div class="s5-card"><img src="images/the-talent-people-pacific-energy.webp" loading="lazy" alt="" class="s5-logo _11"></div>
-          <div class="s5-card"><img src="images/the-talent-people-yamazaki-mazak-corporation.webp" loading="lazy" alt="" class="s5-logo _12"></div>
-          <div class="s5-card"><img src="images/the-talent-people-cw-electronics.webp" loading="lazy" alt="" class="s5-logo _13"></div>
-          <div class="s5-card"><img src="images/the-talent-people-zico-holdings-inc-limited.webp" loading="lazy" alt="" class="s5-logo _14"></div>
-          <div class="s5-card"><img src="images/the-talent-people-comemde.webp" loading="lazy" alt="" class="s5-logo _15"></div>
-          <div class="s5-card"><img src="images/the-talent-people-faxolif.webp" loading="lazy" alt="" class="s5-logo _16"></div>
-          <div class="s5-card"><img src="images/the-talent-people-discove.webp" loading="lazy" alt="" class="s5-logo _17"></div>
-          <div class="s5-card"><img src="images/the-talent-people-salvadore-ferragamo.webp" loading="lazy" alt="" class="s5-logo _18"></div>
+          <div class="s5-card"><img src="images/the-talent-people-lite-on.webp" loading="lazy" alt="The Talent People - Lite On" class="s5-logo _1"></div>
+          <div class="s5-card"><img src="images/the-talent-people-edmund-optics-singapore.webp" loading="lazy" alt="The Talent People - Edmund Optics Singapore" class="s5-logo _2"></div>
+          <div class="s5-card"><img src="images/the-talent-people-makino.webp" loading="lazy" alt="The Talent People - Makino" class="s5-logo _3"></div>
+          <div class="s5-card"><img src="images/the-talent-people-ame-international.webp" loading="lazy" alt="The Talent People - AME International" class="s5-logo _4"></div>
+          <div class="s5-card"><img src="images/the-talent-people-fuyu-corporation.webp" loading="lazy" alt="The Talent People - Fuyu Corporation" class="s5-logo _5"></div>
+          <div class="s5-card"><img src="images/the-talent-people-kulicke-and-soffa.webp" loading="lazy" alt="The Talent People - Kulicke &amp; Soffa" class="s5-logo _6"></div>
+          <div class="s5-card"><img src="images/the-talent-people-pratt-and-whitney.webp" loading="lazy" alt="The Talent People - Pratt &amp; Whitney" class="s5-logo _7"></div>
+          <div class="s5-card"><img src="images/the-talent-people-beyonics.webp" loading="lazy" alt="The Talent People - Beyonics" class="s5-logo _8"></div>
+          <div class="s5-card"><img src="images/the-talent-people-yokogawa.webp" loading="lazy" alt="The Talent People - Yokogawa" class="s5-logo _9"></div>
+          <div class="s5-card"><img src="images/the-talent-people-royal-golden-eagle.webp" loading="lazy" alt="The Talent People - Royal Golden Eagle" class="s5-logo _10"></div>
+          <div class="s5-card"><img src="images/the-talent-people-pacific-energy.webp" loading="lazy" alt="The Talent People - Pacific Energy" class="s5-logo _11"></div>
+          <div class="s5-card"><img src="images/the-talent-people-yamazaki-mazak-corporation.webp" loading="lazy" alt="The Talent People - Yamazaki Mazak Corporation" class="s5-logo _12"></div>
+          <div class="s5-card"><img src="images/the-talent-people-cw-electronics.webp" loading="lazy" alt="The Talent People - C&amp;W Electronics" class="s5-logo _13"></div>
+          <div class="s5-card"><img src="images/the-talent-people-zico-holdings-inc-limited.webp" loading="lazy" alt="The Talent People - Zico Holdings" class="s5-logo _14"></div>
+          <div class="s5-card"><img src="images/the-talent-people-comemde.webp" loading="lazy" alt="The Talent People - Comemde" class="s5-logo _15"></div>
+          <div class="s5-card"><img src="images/the-talent-people-faxolif.webp" loading="lazy" alt="The Talent People - Faxolif" class="s5-logo _16"></div>
+          <div class="s5-card"><img src="images/the-talent-people-discove.webp" loading="lazy" alt="The Talent People - Discova" class="s5-logo _17"></div>
+          <div class="s5-card"><img src="images/the-talent-people-salvadore-ferragamo.webp" loading="lazy" alt="The Talent People - Salvadore Ferragamo" class="s5-logo _18"></div>
         </div>
         <div class="s5-marquee">
-          <div class="s5-card"><img src="images/the-talent-people-lite-on.webp" loading="lazy" alt="" class="s5-logo _1"></div>
-          <div class="s5-card"><img src="images/the-talent-people-edmund-optics-singapore.webp" loading="lazy" alt="" class="s5-logo _2"></div>
-          <div class="s5-card"><img src="images/the-talent-people-makino.webp" loading="lazy" alt="" class="s5-logo _3"></div>
-          <div class="s5-card"><img src="images/the-talent-people-ame-international.webp" loading="lazy" alt="" class="s5-logo _4"></div>
-          <div class="s5-card"><img src="images/the-talent-people-fuyu-corporation.webp" loading="lazy" alt="" class="s5-logo _5"></div>
-          <div class="s5-card"><img src="images/the-talent-people-kulicke-and-soffa.webp" loading="lazy" alt="" class="s5-logo _6"></div>
-          <div class="s5-card"><img src="images/the-talent-people-pratt-and-whitney.webp" loading="lazy" alt="" class="s5-logo _7"></div>
-          <div class="s5-card"><img src="images/the-talent-people-beyonics.webp" loading="lazy" alt="" class="s5-logo _8"></div>
-          <div class="s5-card"><img src="images/the-talent-people-yokogawa.webp" loading="lazy" alt="" class="s5-logo _9"></div>
-          <div class="s5-card"><img src="images/the-talent-people-royal-golden-eagle.webp" loading="lazy" alt="" class="s5-logo _10"></div>
-          <div class="s5-card"><img src="images/the-talent-people-pacific-energy.webp" loading="lazy" alt="" class="s5-logo _11"></div>
-          <div class="s5-card"><img src="images/the-talent-people-yamazaki-mazak-corporation.webp" loading="lazy" alt="" class="s5-logo _12"></div>
-          <div class="s5-card"><img src="images/the-talent-people-cw-electronics.webp" loading="lazy" alt="" class="s5-logo _13"></div>
-          <div class="s5-card"><img src="images/the-talent-people-zico-holdings-inc-limited.webp" loading="lazy" alt="" class="s5-logo _14"></div>
-          <div class="s5-card"><img src="images/the-talent-people-comemde.webp" loading="lazy" alt="" class="s5-logo _15"></div>
-          <div class="s5-card"><img src="images/the-talent-people-faxolif.webp" loading="lazy" alt="" class="s5-logo _16"></div>
-          <div class="s5-card"><img src="images/the-talent-people-discove.webp" loading="lazy" alt="" class="s5-logo _17"></div>
-          <div class="s5-card"><img src="images/the-talent-people-salvadore-ferragamo.webp" loading="lazy" alt="" class="s5-logo _18"></div>
+          <div class="s5-card"><img src="images/the-talent-people-lite-on.webp" loading="lazy" alt="The Talent People - Lite On" class="s5-logo _1"></div>
+          <div class="s5-card"><img src="images/the-talent-people-edmund-optics-singapore.webp" loading="lazy" alt="The Talent People - Edmund Optics Singapore" class="s5-logo _2"></div>
+          <div class="s5-card"><img src="images/the-talent-people-makino.webp" loading="lazy" alt="The Talent People - Makino" class="s5-logo _3"></div>
+          <div class="s5-card"><img src="images/the-talent-people-ame-international.webp" loading="lazy" alt="The Talent People - AME International" class="s5-logo _4"></div>
+          <div class="s5-card"><img src="images/the-talent-people-fuyu-corporation.webp" loading="lazy" alt="The Talent People - Fuyu Corporation" class="s5-logo _5"></div>
+          <div class="s5-card"><img src="images/the-talent-people-kulicke-and-soffa.webp" loading="lazy" alt="The Talent People - Kulicke &amp; Soffa" class="s5-logo _6"></div>
+          <div class="s5-card"><img src="images/the-talent-people-pratt-and-whitney.webp" loading="lazy" alt="The Talent People - Pratt &amp; Whitney" class="s5-logo _7"></div>
+          <div class="s5-card"><img src="images/the-talent-people-beyonics.webp" loading="lazy" alt="The Talent People - Beyonics" class="s5-logo _8"></div>
+          <div class="s5-card"><img src="images/the-talent-people-yokogawa.webp" loading="lazy" alt="The Talent People - Yokogawa" class="s5-logo _9"></div>
+          <div class="s5-card"><img src="images/the-talent-people-royal-golden-eagle.webp" loading="lazy" alt="The Talent People - Royal Golden Eagle" class="s5-logo _10"></div>
+          <div class="s5-card"><img src="images/the-talent-people-pacific-energy.webp" loading="lazy" alt="The Talent People - Pacific Energy" class="s5-logo _11"></div>
+          <div class="s5-card"><img src="images/the-talent-people-yamazaki-mazak-corporation.webp" loading="lazy" alt="The Talent People - Yamazaki Mazak Corporation" class="s5-logo _12"></div>
+          <div class="s5-card"><img src="images/the-talent-people-cw-electronics.webp" loading="lazy" alt="The Talent People - C&amp;W Electronics" class="s5-logo _13"></div>
+          <div class="s5-card"><img src="images/the-talent-people-zico-holdings-inc-limited.webp" loading="lazy" alt="The Talent People - Zico Holdings" class="s5-logo _14"></div>
+          <div class="s5-card"><img src="images/the-talent-people-comemde.webp" loading="lazy" alt="The Talent People - Comemde" class="s5-logo _15"></div>
+          <div class="s5-card"><img src="images/the-talent-people-faxolif.webp" loading="lazy" alt="The Talent People - Faxolif" class="s5-logo _16"></div>
+          <div class="s5-card"><img src="images/the-talent-people-discove.webp" loading="lazy" alt="The Talent People - Discova" class="s5-logo _17"></div>
+          <div class="s5-card"><img src="images/the-talent-people-salvadore-ferragamo.webp" loading="lazy" alt="The Talent People - Salvadore Ferragamo" class="s5-logo _18"></div>
         </div>
       </div>
     </section>
@@ -515,7 +518,7 @@ select {
   <footer bind="35a746d8-047b-a36c-6eb7-d9f93c973150" class="footer">
     <div class="footer-wrapper">
       <div class="footer-top">
-        <a data-w-id="35a746d8-047b-a36c-6eb7-d9f93c973153" href="index.html" aria-current="page" class="footer-left w-inline-block w--current"><img src="images/ttp-logo-white.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.98265075683594px, 239.95660400390625px" srcset="images/35989bd0c9b2e54581e3e6724d7182c8_ttp-logo-white-p-500.webp 500w, images/ttp-logo-white.webp 558w" alt="The Talent People - White Logo" class="logo-white"><img src="images/ttp-logo-blue.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.98265075683594px, 239.95660400390625px" srcset="images/a3a8660db32382a60730273d2a6b0034_ttp-logo-blue-p-500.webp 500w, images/ttp-logo-blue.webp 558w" alt="The Talent People - Blue Logo" class="logo-blue"></a>
+        <a data-w-id="35a746d8-047b-a36c-6eb7-d9f93c973153" href="index.html" aria-current="page" class="footer-left w-inline-block w--current"><img src="images/ttp-logo-white.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.98265075683594px, 239.98265075683594px" srcset="images/35989bd0c9b2e54581e3e6724d7182c8_ttp-logo-white-p-500.webp 500w, images/ttp-logo-white.webp 558w" alt="The Talent People - White Logo" class="logo-white"><img src="images/ttp-logo-blue.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 239.98265075683594px, 239.98265075683594px" srcset="images/a3a8660db32382a60730273d2a6b0034_ttp-logo-blue-p-500.webp 500w, images/ttp-logo-blue.webp 558w" alt="The Talent People - Blue Logo" class="logo-blue"></a>
         <div class="footer-right">
           <div class="footer-link-wrapper">
             <div class="footer-link-left">

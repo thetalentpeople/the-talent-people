@@ -632,6 +632,10 @@ ul {
   display: flex;
 }
 
+.button-wrapper.center-align.hide {
+  display: none;
+}
+
 .button-wrapper._3 {
   margin-top: .5rem;
 }
@@ -3964,10 +3968,6 @@ ul {
     display: flex;
   }
 
-  .menu {
-    display: none;
-  }
-
   .menu-link {
     text-decoration: none;
   }
@@ -4816,10 +4816,6 @@ ul {
   .about-body {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .menu {
-    display: none;
   }
 
   .menu-link {
