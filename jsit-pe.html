@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Jan 13 2026 14:12:21 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sun Feb 01 2026 16:54:26 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="69433633640f5ac74eb1c277" data-wf-site="69433633640f5ac74eb1c27f">
 <head>
   <meta charset="utf-8">
@@ -31,12 +31,28 @@
   color: #2354c6; /* blue */
 }
 </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <style>
+.swiper-slide {
+  filter: brightness(0.3);
+}
+.swiper-slide.swiper-slide-active {
+  filter: brightness(1);
+}
+.symposium-video iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+}
+</style>
 </head>
 <body>
   <header class="header-jsit">
     <div class="header-wrapper-jsit">
       <h1 class="jsit-pe-logo-text">jsit-pe</h1>
-      <a href="jsit-pe.html" aria-current="page" class="jsit-logo-wrapper w-inline-block w--current"><img sizes="(max-width: 479px) 100vw, 239.9652862548828px, 239.9652862548828px" srcset="images/jsit-pe-logo-p-500.webp 500w, images/jsit-pe-logo.webp 600w" alt="JSIT-PE - Logo" src="images/jsit-pe-logo.webp" loading="lazy" class="jsit-logo"></a>
+      <a href="jsit-pe.html" aria-current="page" class="jsit-logo-wrapper w-inline-block w--current"><img sizes="(max-width: 600px) 100vw, 600px" srcset="images/jsit-pe-logo-p-500.webp 500w, images/jsit-pe-logo.webp 600w" alt="JSIT-PE - Logo" src="images/jsit-pe-logo.webp" loading="lazy" class="jsit-logo"></a>
     </div>
   </header>
   <main class="main-jsit">
@@ -44,7 +60,7 @@
       <div data-delay="4000" data-animation="cross" class="hero-slider-jsit w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
         <div class="hero-slider-mask-jsit w-slider-mask">
           <div class="hero-slide-jsit w-slide">
-            <div class="hero-slide-wrapper-jsit"><img width="1920" sizes="(max-width: 1919px) 100vw, 1920.0001220703125px" alt="JSIT-PE - Hero Image 1" src="images/jsit-pe-hero-image-landing-1.webp" loading="eager" srcset="images/jsit-pe-hero-image-landing-1-p-500.webp 500w, images/jsit-pe-hero-image-landing-1-p-800.webp 800w, images/jsit-pe-hero-image-landing-1-p-1080.webp 1080w, images/jsit-pe-hero-image-landing-1-p-1600.webp 1600w, images/jsit-pe-hero-image-landing-1-p-2000.webp 2000w, images/jsit-pe-hero-image-landing-1-p-2600.webp 2600w, images/jsit-pe-hero-image-landing-1-p-3200.webp 3200w, images/jsit-pe-hero-image-landing-1.webp 3840w" class="hero-image-jsit _1">
+            <div class="hero-slide-wrapper-jsit"><img width="1920" sizes="(max-width: 1919px) 100vw, 1920px" alt="JSIT-PE - Hero Image 1" src="images/jsit-pe-hero-image-landing-1.webp" loading="eager" srcset="images/jsit-pe-hero-image-landing-1-p-500.webp 500w, images/jsit-pe-hero-image-landing-1-p-800.webp 800w, images/jsit-pe-hero-image-landing-1-p-1080.webp 1080w, images/jsit-pe-hero-image-landing-1-p-1600.webp 1600w, images/jsit-pe-hero-image-landing-1-p-2000.webp 2000w, images/jsit-pe-hero-image-landing-1-p-2600.webp 2600w, images/jsit-pe-hero-image-landing-1-p-3200.webp 3200w, images/jsit-pe-hero-image-landing-1.webp 3840w" class="hero-image-jsit _1">
               <div class="hero-shadow-jsit"></div>
               <div class="hero-overlay-jsit">
                 <div class="hero-overlay-inner-jsit">
@@ -57,7 +73,7 @@
             </div>
           </div>
           <div class="hero-slide-jsit w-slide">
-            <div class="hero-slide-wrapper-jsit"><img width="1920" sizes="(max-width: 1919px) 100vw, 1920.0001220703125px, 100vw" alt="JSIT-PE - Hero Image 2" src="images/jsit-pe-hero-image-landing-2.webp" loading="eager" srcset="images/jsit-pe-hero-image-landing-2-p-500.webp 500w, images/jsit-pe-hero-image-landing-2-p-800.webp 800w, images/jsit-pe-hero-image-landing-2-p-1080.webp 1080w, images/jsit-pe-hero-image-landing-2-p-1600.webp 1600w, images/jsit-pe-hero-image-landing-2-p-2000.webp 2000w, images/jsit-pe-hero-image-landing-2-p-2600.webp 2600w, images/jsit-pe-hero-image-landing-2-p-3200.webp 3200w, images/jsit-pe-hero-image-landing-2.webp 3840w" class="hero-image-jsit _2">
+            <div class="hero-slide-wrapper-jsit"><img width="1920" sizes="(max-width: 1919px) 100vw, 1920px" alt="JSIT-PE - Hero Image 2" src="images/jsit-pe-hero-image-landing-2.webp" loading="eager" srcset="images/jsit-pe-hero-image-landing-2-p-500.webp 500w, images/jsit-pe-hero-image-landing-2-p-800.webp 800w, images/jsit-pe-hero-image-landing-2-p-1080.webp 1080w, images/jsit-pe-hero-image-landing-2-p-1600.webp 1600w, images/jsit-pe-hero-image-landing-2-p-2000.webp 2000w, images/jsit-pe-hero-image-landing-2-p-2600.webp 2600w, images/jsit-pe-hero-image-landing-2-p-3200.webp 3200w, images/jsit-pe-hero-image-landing-2.webp 3840w" class="hero-image-jsit _2">
               <div class="hero-shadow-jsit"></div>
               <div class="hero-overlay-jsit">
                 <div class="hero-overlay-inner-jsit">
@@ -70,7 +86,7 @@
             </div>
           </div>
           <div class="hero-slide-jsit w-slide">
-            <div class="hero-slide-wrapper-jsit"><img width="1920" sizes="100vw" alt="JSIT-PE - Hero Image 3" src="images/jsit-pe-hero-image-landing-3.webp" loading="eager" srcset="images/jsit-pe-hero-image-landing-3-p-500.webp 500w, images/jsit-pe-hero-image-landing-3-p-800.webp 800w, images/jsit-pe-hero-image-landing-3-p-1080.webp 1080w, images/jsit-pe-hero-image-landing-3-p-1600.webp 1600w, images/jsit-pe-hero-image-landing-3-p-2000.webp 2000w, images/jsit-pe-hero-image-landing-3-p-2600.webp 2600w, images/jsit-pe-hero-image-landing-3-p-3200.webp 3200w, images/jsit-pe-hero-image-landing-3.webp 3840w" class="hero-image-jsit _3">
+            <div class="hero-slide-wrapper-jsit"><img width="1920" sizes="(max-width: 1919px) 100vw, 1920px" alt="JSIT-PE - Hero Image 3" src="images/jsit-pe-hero-image-landing-3.webp" loading="eager" srcset="images/jsit-pe-hero-image-landing-3-p-500.webp 500w, images/jsit-pe-hero-image-landing-3-p-800.webp 800w, images/jsit-pe-hero-image-landing-3-p-1080.webp 1080w, images/jsit-pe-hero-image-landing-3-p-1600.webp 1600w, images/jsit-pe-hero-image-landing-3-p-2000.webp 2000w, images/jsit-pe-hero-image-landing-3-p-2600.webp 2600w, images/jsit-pe-hero-image-landing-3-p-3200.webp 3200w, images/jsit-pe-hero-image-landing-3.webp 3840w" class="hero-image-jsit _3">
               <div class="hero-shadow-jsit"></div>
               <div class="hero-overlay-jsit">
                 <div class="hero-overlay-inner-jsit">
@@ -80,12 +96,6 @@
                   <a href="jsit-pe/employee.html" class="cta-button-jsit employee w-button">Learn More</a>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="hero-slide-jsit w-slide">
-            <div class="hero-slide-wrapper-jsit symposium"><img width="1920" sizes="(max-width: 1919px) 100vw, 1920.0001220703125px" alt="JSIT-PE - Precision Engineering Symposium 2026" src="images/jsit-pe-precision-engineering-symposium-2026-bg.webp" loading="eager" srcset="images/jsit-pe-precision-engineering-symposium-2026-bg-p-500.webp 500w, images/jsit-pe-precision-engineering-symposium-2026-bg-p-800.webp 800w, images/jsit-pe-precision-engineering-symposium-2026-bg-p-1080.webp 1080w, images/jsit-pe-precision-engineering-symposium-2026-bg-p-1600.webp 1600w, images/jsit-pe-precision-engineering-symposium-2026-bg-p-2000.webp 2000w, images/jsit-pe-precision-engineering-symposium-2026-bg-p-2600.webp 2600w, images/jsit-pe-precision-engineering-symposium-2026-bg-p-3200.webp 3200w, images/jsit-pe-precision-engineering-symposium-2026-bg.webp 3840w" class="hero-image-jsit symposium-bg">
-              <div class="hero-image-jsit symposium-fg-wrapper"><img src="images/jsit-pe-precision-engineering-symposium-2026-fg.webp" loading="eager" width="750" sizes="(max-width: 767px) 100vw, 750.0000610351562px" alt="JSIT-PE - Precision Engineering Symposium 2026" srcset="images/jsit-pe-precision-engineering-symposium-2026-fg-p-500.webp 500w, images/jsit-pe-precision-engineering-symposium-2026-fg-p-800.webp 800w, images/jsit-pe-precision-engineering-symposium-2026-fg.webp 1500w" class="hero-image-jsit symposium-fg"></div>
-              <div class="hero-shadow-jsit"></div>
             </div>
           </div>
         </div>
@@ -102,47 +112,184 @@
         <a href="jsit-pe/employee.html" class="nav-button-jsit blue w-button">Employee</a>
       </div>
     </section>
-    <section class="section-jsit">
+    <section data-w-id="fc1f332f-eff6-4715-5024-9d46038ac86b" class="section-jsit">
       <div class="section-wrapper-jsit s1">
         <div class="left-column-jsit">
-          <h3 class="section-heading-jsit">Day in the life of a PE Engineer</h3>
-          <div class="pe-video-wrapper">
+          <h3 data-w-id="fc1f332f-eff6-4715-5024-9d46038ac86e" style="-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="section-heading-jsit">Day in the life of a PE Engineer</h3>
+          <div data-w-id="fc1f332f-eff6-4715-5024-9d46038ac870" style="opacity:0;-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="pe-video-wrapper">
             <div style="padding-top:56.17021276595745%" class="pe-video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fg3bh6RuD3rA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dg3bh6RuD3rA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fg3bh6RuD3rA%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="Precision Engineering - NYP School of Engineering"></iframe></div>
           </div>
         </div>
         <div class="right-column-jsit">
-          <h3 class="section-heading-jsit">Upcoming Events:</h3>
-          <div class="event-wrapper-jsit">
-            <a href="mailto:jsit_pe@nyp.edu.sg?subject=Bite-Size%20Talks%20&amp;body=Hi%2C%20%0A%0AI%20am%20interested%20to%20find%20out%20more%20about%20the%20Bite%20size%20talks%20on%20AI.%20%0A%0AThank%20you." class="event-jsit w-inline-block">
-              <div class="event-left-jsit">
-                <div class="section-text-jsit white center-align event">20<br>NOV</div>
-              </div>
-              <div class="event-right-jsit">
-                <p class="section-text-jsit event">Bite-size Talks on AI Awareness &amp; Career Growth</p>
-              </div>
-            </a>
-            <a href="mailto:jsit_pe@nyp.edu.sg?subject=Notification%20of%20Interest%3A%20JSIT-PE%20Experiential%20Learning%20Journey&amp;body=Hi%2C%20%0A%0AI%20am%20interested%20to%20find%20out%20more%20about%20the%20JSIT-PE%20Experiential%20Learning%20Journey.%0A%0AThank%20you." class="event-jsit w-inline-block">
-              <div class="event-left-jsit">
-                <div class="section-text-jsit white center-align event">10<br>DEC</div>
-              </div>
-              <div class="event-right-jsit">
-                <p class="section-text-jsit event">Experiential Learning Journey</p>
-              </div>
-            </a>
-            <a href="mailto:jsit_pe@nyp.edu.sg?subject=Notification%20of%20Interest%3A%20JSIT-PE%20Symposium&amp;body=Hi%2C%20%0A%0AI%20am%20interested%20to%20find%20out%20more%20about%20the%20JSIT-PE%20Symposium.%0A%0AThank%20you." class="event-jsit w-inline-block">
-              <div class="event-left-jsit">
-                <div class="section-text-jsit white center-align event">16<br>JAN</div>
-              </div>
-              <div class="event-right-jsit">
-                <p class="section-text-jsit event">Precision Engineering Symposium</p>
-              </div>
-            </a>
+          <h3 data-w-id="fc1f332f-eff6-4715-5024-9d46038ac873" style="opacity:0;-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section-heading-jsit">PE Symposium 2026</h3>
+          <div data-w-id="72e22970-964d-9a2c-1cd8-275e3693ce92" style="opacity:0;-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="pe-video-wrapper">
+            <div style="padding-top:56.17021276595745%" class="pe-video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FU_9oOysXCdo%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DU_9oOysXCdo&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FU_9oOysXCdo%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="PE Symposium Event Highlight"></iframe></div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section-jsit s2">
+    <section data-w-id="4996cf35-aa14-7840-6f07-64eac0f29388" class="section-jsit s2">
       <div class="section-wrapper-jsit s2">
+        <h3 data-w-id="ef24d904-72bd-872a-1d9f-94a6ea3156d0" style="-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="section-heading-jsit">Recent Events</h3>
+        <div data-w-id="e62a6e97-e303-e4ec-c4c1-f9e1fd913dad" style="opacity:0;-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="slider-wrapper jsit">
+          <div class="swiper jsit">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="video-wrapper">
+                  <div class="symposium-video w-embed w-iframe"><iframe class="js-youtube" src="https://www.youtube.com/embed/suSrmhPw50Q?enablejsapi=1&rel=0&controls=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-1.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-1-p-500.webp 500w, images/precision-engineering-symposium-2026-1-p-800.webp 800w, images/precision-engineering-symposium-2026-1-p-1080.webp 1080w, images/precision-engineering-symposium-2026-1.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">SPETA Chairman, Mr. Steven Toy, delivering the welcome address.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-2.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-2-p-500.webp 500w, images/precision-engineering-symposium-2026-2-p-800.webp 800w, images/precision-engineering-symposium-2026-2-p-1080.webp 1080w, images/precision-engineering-symposium-2026-2.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">PE Symposium is held at Theatre for the Arts.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-3.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-3-p-500.webp 500w, images/precision-engineering-symposium-2026-3-p-800.webp 800w, images/precision-engineering-symposium-2026-3-p-1080.webp 1080w, images/precision-engineering-symposium-2026-3.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">Keynote Speaker, Mr. Brian Tan, Regional President, South East Asia, Applied Materials, delivering the topic on “Shaping the Future of Semiconductors in the Age of AI”.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-4.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-4-p-500.webp 500w, images/precision-engineering-symposium-2026-4-p-800.webp 800w, images/precision-engineering-symposium-2026-4-p-1080.webp 1080w, images/precision-engineering-symposium-2026-4.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">Mr. Terrence Wong, Senior Vice President, ST Engineering Ltd, sharing the topic “Manufacturing in the Age of AI”.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-5.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-5-p-500.webp 500w, images/precision-engineering-symposium-2026-5-p-800.webp 800w, images/precision-engineering-symposium-2026-5-p-1080.webp 1080w, images/precision-engineering-symposium-2026-5.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">Mr. Cabal Lo, Chief Technology Officer, ATC Globe Holdings Pte Ltd shared about “Human-Centric Automation and Path to AI-Enabled Workflows”.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-6.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-6-p-500.webp 500w, images/precision-engineering-symposium-2026-6-p-800.webp 800w, images/precision-engineering-symposium-2026-6-p-1080.webp 1080w, images/precision-engineering-symposium-2026-6.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">Mr. Murali Das, Senior Manager, Advanced Manufacturing Training Academy (AMTA), spoke on “Thriving in the AI Era: Workforce Transformation for Manufacturing Leaders”.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-7.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-7-p-500.webp 500w, images/precision-engineering-symposium-2026-7-p-800.webp 800w, images/precision-engineering-symposium-2026-7-p-1080.webp 1080w, images/precision-engineering-symposium-2026-7.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">A lively discussion among the panellists on “Talent in Focus – Career Journeys in Precision Engineering”.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-8.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-8-p-500.webp 500w, images/precision-engineering-symposium-2026-8-p-800.webp 800w, images/precision-engineering-symposium-2026-8-p-1080.webp 1080w, images/precision-engineering-symposium-2026-8.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">(Left, 4) Ms. Lim Hee Joo, Executive Director, Wah Son Engineering Pte Ltd presented the awards to the winners of Metrology category and 3D CAD Modelling category under the Precision Engineering Competition 2025.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-9.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-9-p-500.webp 500w, images/precision-engineering-symposium-2026-9-p-800.webp 800w, images/precision-engineering-symposium-2026-9-p-1080.webp 1080w, images/precision-engineering-symposium-2026-9.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">(Left, 5) Mr. Chiang Kai Jun, Transformation Lead, TechTown, presented the awards to the winners of CAM Milling category and CAM Turning category under the Precision Engineering Competition 2025.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="image-wrapper"><img src="images/precision-engineering-symposium-2026-10.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-10-p-500.webp 500w, images/precision-engineering-symposium-2026-10-p-800.webp 800w, images/precision-engineering-symposium-2026-10-p-1080.webp 1080w, images/precision-engineering-symposium-2026-10.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image">
+                  <div class="image-overlay">
+                    <p class="image-caption">SPETA and JSIT-PE members taking a photo with Mr. Steven Toy (right, 4) after the event.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-nav">
+            <div class="slide-next jsit"><img src="images/slider-arrow.webp" loading="lazy" alt="JSIT-PE - Symposium Slide Arrow" class="slider-arrow"></div>
+            <div class="slide-previous jsit"><img src="images/slider-arrow.webp" loading="lazy" alt="JSIT-PE - Symposium Slide Arrow" class="slider-arrow"></div>
+          </div>
+          <div class="w-layout-vflex slider-wrapper-mb">
+            <div data-delay="4000" data-animation="cross" class="slider-mb w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+              <div class="slider-mask-mb w-slider-mask">
+                <div class="w-slide">
+                  <div class="symposium-video-wrapper">
+                    <div id="slider" class="symposium-video w-embed w-iframe"><iframe id="yt-slider" class="js-youtube" src="https://www.youtube.com/embed/suSrmhPw50Q?enablejsapi=1&rel=0&controls=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+                  </div>
+                </div>
+                <div class="w-slide"><img src="images/precision-engineering-symposium-2026-1.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-1-p-500.webp 500w, images/precision-engineering-symposium-2026-1-p-800.webp 800w, images/precision-engineering-symposium-2026-1-p-1080.webp 1080w, images/precision-engineering-symposium-2026-1.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">SPETA Chairman, Mr. Steven Toy, delivering the welcome address.</p>
+                  </div>
+                </div>
+                <div class="w-slide"><img src="images/precision-engineering-symposium-2026-2.webp" loading="lazy" sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-2-p-500.webp 500w, images/precision-engineering-symposium-2026-2-p-800.webp 800w, images/precision-engineering-symposium-2026-2-p-1080.webp 1080w, images/precision-engineering-symposium-2026-2.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">PE Symposium is held at Theatre for the Arts.</p>
+                  </div>
+                </div>
+                <div class="w-slide"><img sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-3-p-500.webp 500w, images/precision-engineering-symposium-2026-3-p-800.webp 800w, images/precision-engineering-symposium-2026-3-p-1080.webp 1080w, images/precision-engineering-symposium-2026-3.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" src="images/precision-engineering-symposium-2026-3.webp" loading="lazy" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">Keynote Speaker, Mr. Brian Tan, Regional President, South East Asia, Applied Materials, delivering the topic on “Shaping the Future of Semiconductors in the Age of AI”.</p>
+                  </div>
+                </div>
+                <div class="w-slide"><img sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-4-p-500.webp 500w, images/precision-engineering-symposium-2026-4-p-800.webp 800w, images/precision-engineering-symposium-2026-4-p-1080.webp 1080w, images/precision-engineering-symposium-2026-4.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" src="images/precision-engineering-symposium-2026-4.webp" loading="lazy" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">Mr. Terrence Wong, Senior Vice President, ST Engineering Ltd, sharing the topic “Manufacturing in the Age of AI”.</p>
+                  </div>
+                </div>
+                <div class="w-slide"><img sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-5-p-500.webp 500w, images/precision-engineering-symposium-2026-5-p-800.webp 800w, images/precision-engineering-symposium-2026-5-p-1080.webp 1080w, images/precision-engineering-symposium-2026-5.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" src="images/precision-engineering-symposium-2026-5.webp" loading="lazy" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">Mr. Cabal Lo, Chief Technology Officer, ATC Globe Holdings Pte Ltd shared about “Human-Centric Automation and Path to AI-Enabled Workflows”.</p>
+                  </div>
+                </div>
+                <div class="w-slide"><img sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-6-p-500.webp 500w, images/precision-engineering-symposium-2026-6-p-800.webp 800w, images/precision-engineering-symposium-2026-6-p-1080.webp 1080w, images/precision-engineering-symposium-2026-6.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" src="images/precision-engineering-symposium-2026-6.webp" loading="lazy" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">Mr. Murali Das, Senior Manager, Advanced Manufacturing Training Academy (AMTA), spoke on “Thriving in the AI Era: Workforce Transformation for Manufacturing Leaders”.</p>
+                  </div>
+                </div>
+                <div class="w-slide"><img sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-7-p-500.webp 500w, images/precision-engineering-symposium-2026-7-p-800.webp 800w, images/precision-engineering-symposium-2026-7-p-1080.webp 1080w, images/precision-engineering-symposium-2026-7.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" src="images/precision-engineering-symposium-2026-7.webp" loading="lazy" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">A lively discussion among the panellists on “Talent in Focus – Career Journeys in Precision Engineering”.</p>
+                  </div>
+                </div>
+                <div class="w-slide"><img sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-8-p-500.webp 500w, images/precision-engineering-symposium-2026-8-p-800.webp 800w, images/precision-engineering-symposium-2026-8-p-1080.webp 1080w, images/precision-engineering-symposium-2026-8.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" src="images/precision-engineering-symposium-2026-8.webp" loading="lazy" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">(Left, 4) Ms. Lim Hee Joo, Executive Director, Wah Son Engineering Pte Ltd presented the awards to the winners of Metrology category and 3D CAD Modelling category under the Precision Engineering Competition 2025.</p>
+                  </div>
+                </div>
+                <div class="w-slide"><img sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-9-p-500.webp 500w, images/precision-engineering-symposium-2026-9-p-800.webp 800w, images/precision-engineering-symposium-2026-9-p-1080.webp 1080w, images/precision-engineering-symposium-2026-9.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" src="images/precision-engineering-symposium-2026-9.webp" loading="lazy" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">(Left, 5) Mr. Chiang Kai Jun, Transformation Lead, TechTown, presented the awards to the winners of CAM Milling category and CAM Turning category under the Precision Engineering Competition 2025.</p>
+                  </div>
+                </div>
+                <div class="w-slide"><img sizes="(max-width: 1600px) 100vw, 1600px" srcset="images/precision-engineering-symposium-2026-10-p-500.webp 500w, images/precision-engineering-symposium-2026-10-p-800.webp 800w, images/precision-engineering-symposium-2026-10-p-1080.webp 1080w, images/precision-engineering-symposium-2026-10.webp 1600w" alt="JSIT-PE - Precision Engineering Symposium 2026" src="images/precision-engineering-symposium-2026-10.webp" loading="lazy" class="symposium-image-mb">
+                  <div class="caption-wrapper">
+                    <p class="image-caption">SPETA and JSIT-PE members taking a photo with Mr. Steven Toy (right, 4) after the event.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="left-arrow-wrapper w-slider-arrow-left"><img src="images/slider-arrow.webp" loading="lazy" alt="JSIT-PE - Symposium Slide Arrow" class="slider-arrow previous"></div>
+              <div class="right-arrow-wrapper w-slider-arrow-right"><img src="images/slider-arrow.webp" loading="lazy" alt="JSIT-PE - Symposium Slide Arrow" class="slider-arrow"></div>
+              <div class="slide-nav w-slider-nav w-round"></div>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="32461639-75e7-24c0-3f95-181285b4600f" style="-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="pdf-wrapper">
+          <h3 data-w-id="b62fa9dd-bf46-cdda-357d-7b42750bbac6" style="opacity:0;-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="symposium-heading dt">Driving the Future of Precision Engineering at <br>PE Symposium 2026!</h3>
+          <h3 class="symposium-heading tb-mb">Driving the Future of Precision Engineering at PE Symposium 2026!</h3>
+          <p data-w-id="845b394d-cc77-14e6-e46e-5110e7d896fa" style="opacity:0;-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="symposium-text">The Precision Engineering (PE) Symposium 2026, jointly organised by the Jobs-Skills Integrator for Precision Engineering (JSIT PE) and the Singapore Precision Engineering and Technology Association (SPETA), brought together over 240 industry leaders, innovators, and aspiring talents for an energising afternoon of insights and inspiration at Nanyang Polytechnic.<br><br>Kicking off the event, Mr. Brian Tan, Regional President (SEA), Applied Materials, delivered a sharp and timely keynote on the evolving global semiconductor landscape and how AI is accelerating innovation and manufacturing complexity.<br><br>Attendees also gained fresh perspectives from our Company Spotlights featuring:<br>Terrence Wong, ST Engineering Ltd<br>Mr. Cabal Lo, ATC Globe Holdings Pte Ltd<br>Mr. Murali Das, Advanced Manufacturing Training Academy (AMTA)<br><br>A dynamic panel discussion featuring Mr. Bryan Toy, Executive Director, AME International, Mr. Jiang Fu Wei, Director, Panasonic Appliances R&amp;D Centre Singapore, Mr. Muhammad Nur’Iman, SPETA Gold Awardee and Mr. Josiah Leong, Founder, The Talent People, and moderated by Ms. Jesslyn Ogmund, NYP, sparked meaningful conversations on how technology is reshaping industry roles, empowering the workforce, and strengthening talent pipelines for millennials and Gen Z.The symposium concluded with a celebratory awards segment recognising companies and young achievers who are leading the way in digital transformation, workforce development, and industry excellence.The strong momentum in Singapore’s precision engineering sector continues—and JSIT-PE is excited to help shape the next generation of talent and innovation!<br>‍<br>‍<br>---------------<br>For information on the event: <a href="https://speta.glueup.com/event/precision-engineering-industry-symposium-2026-159720/" target="_blank" class="jsit-link">Precision Engineering Industry Symposium 2026 | Singapore Precision Engineering and Technology Association (SPETA) on Glue Up</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-jsit s3">
+      <div class="section-wrapper-jsit s3">
         <div class="count-jsit">
           <div class="count-number-jsit count-1">400</div>
           <p class="counter-text-jsit">PE Employers<br>Supported</p>
@@ -157,10 +304,10 @@
         </div>
       </div>
     </section>
-    <section class="section-jsit">
-      <div class="section-wrapper-jsit s3">
-        <h1 class="section-heading-jsit">Top Employers Currently Hiring</h1>
-        <div class="brands-wrapper-jsit">
+    <section data-w-id="fc1f332f-eff6-4715-5024-9d46038ac8a8" class="section-jsit">
+      <div class="section-wrapper-jsit s4">
+        <h3 data-w-id="fc1f332f-eff6-4715-5024-9d46038ac8aa" style="-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="section-heading-jsit">Top Employers Currently Hiring</h3>
+        <div data-w-id="fc1f332f-eff6-4715-5024-9d46038ac8ac" style="opacity:0;-webkit-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="brands-wrapper-jsit">
           <a href="https://www.mycareersfuture.gov.sg/companies/edmund-optics-singapore-200010177R" target="_blank" class="brand-1 w-inline-block"><img loading="lazy" src="images/jsit-pe-edmund-optics-singapore.webp" alt="JSIT-PE - Edmund Optics" class="brand-image-jsit"></a>
           <a id="w-node-fc1f332f-eff6-4715-5024-9d46038ac8af-4eb1c277" href="https://www.mycareersfuture.gov.sg/companies/epson-singapore-198204474C" target="_blank" class="brand-2 w-inline-block"><img loading="lazy" src="images/jsit-pe-sunningdale-tech.webp" alt="JSIT-PE - Sunningdale Tech" class="brand-image-jsit"></a>
           <a href="https://www.mycareersfuture.gov.sg/companies/fu-yu-corporation-198004601C" target="_blank" class="brand-3 w-inline-block"><img loading="lazy" src="images/jsit-pe-fuyu-corporation.webp" alt="JSIT-PE - FUYU Corporation" class="brand-image-jsit"></a>
@@ -276,7 +423,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
   <script>
-  document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     // Remove existing favicon links
     const existing = document.querySelectorAll("link[rel~='icon']");
     existing.forEach(el => el.parentNode.removeChild(el));
@@ -284,7 +431,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const link = document.createElement('link');
     link.rel = 'icon';
     link.type = 'image/jpeg';        // since it’s a JPG
-    link.href = 'https://cdn.prod.website-files.com/66ebcb9fe22b28d145d42041/68ef49faab6859db539fc7d0_2248e309b3efb4be7b4cc627bfd01792_jsit-favicon.png';
+    link.href = 'https://cdn.prod.website-  files.com/66ebcb9fe22b28d145d42041/68ef49faab6859db539fc7d0_2248e309b3efb4be7b4cc627bfd01792_jsit-favicon.png';
     document.head.appendChild(link);
   });
 </script>
@@ -338,6 +485,111 @@ document.addEventListener("DOMContentLoaded", function () {
     currency: false,
     separator: true,
 		});
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+  let players = [];
+  function onYouTubeIframeAPIReady() {
+    document.querySelectorAll('.js-youtube').forEach((iframe, idx) => {
+      players[idx] = new YT.Player(iframe);
+    });
+  }
+  const tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  document.body.appendChild(tag);
+  document.addEventListener('DOMContentLoaded', function () {
+    const newSwiper = new Swiper('.swiper', {
+      effect: 'coverflow',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 70,
+        depth: 70,
+        modifier: 7.45,
+        slideShadows: false,
+      },
+      mousewheel: { forceToAxis: true },
+      slidesPerView: 'auto',
+      spaceBetween: 0,
+      loop: true,
+      speed: 800,
+      centeredSlides: true,
+      navigation: {
+        nextEl: '.slide-next',
+        prevEl: '.slide-previous',
+      },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 1.1,
+          coverflowEffect: {
+            stretch: 0,
+            depth: 70,
+            modifier: 7,
+          },
+        },
+        992: {
+          slidesPerView: 1.2,
+          coverflowEffect: {
+            stretch: 0,
+            depth: 70,
+            modifier: 7,
+          },
+        },
+        1280: { slidesPerView: 1.3 },
+        1440: { slidesPerView: 1.3 },
+        1920: { slidesPerView: 1.3 },
+      },
+      on: {
+        slideChange: function () {
+          players.forEach(p => {
+            try { p.pauseVideo(); }
+            catch (e) {}
+          });
+        }
+      }
+    });
+  });
+</script>
+  <!--  Symposium Slide (Slider - MB) - Play / Pause  -->
+  <script>
+  let players = new Map();
+  let apiReady = false;
+  function onYouTubeIframeAPIReady() {
+    apiReady = true;
+    console.log("YT API ready");
+    initPlayers();
+  }
+  const tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  document.body.appendChild(tag);
+  function initPlayers() {
+    document.querySelectorAll('.js-youtube').forEach((iframe) => {
+      if (players.has(iframe)) return;
+      players.set(iframe, new YT.Player(iframe));
+      console.log("Player created for:", iframe.id);
+    });
+  }
+  function getActiveIframe() {
+    const activeSwiper = document.querySelector(".swiper-slide.swiper-slide-active .js-youtube");
+    const activeWebflow = document.querySelector(".w-slide:not([aria-hidden='true']) .js-youtube");
+    return activeSwiper || activeWebflow;
+  }
+  function pauseInactiveVideos() {
+    if (!apiReady) return;
+    initPlayers();
+    const activeIframe = getActiveIframe();
+    players.forEach((player, iframe) => {
+      if (iframe !== activeIframe) {
+        player.pauseVideo();
+      }
+    });
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    setInterval(pauseInactiveVideos, 300);
+  });
 </script>
 </body>
 </html>
