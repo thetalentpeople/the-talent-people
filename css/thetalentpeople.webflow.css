@@ -185,6 +185,7 @@ p {
 a {
   color: var(--ttp-blue);
   cursor: pointer;
+  text-decoration: none;
 }
 
 ul {
