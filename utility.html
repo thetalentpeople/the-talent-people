@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sun Feb 01 2026 16:59:44 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Feb 03 2026 06:29:31 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6948fa34a6bca65e5da872b8" data-wf-site="69433633640f5ac74eb1c27f">
 <head>
   <meta charset="utf-8">
@@ -28,7 +28,7 @@
 <body>
   <nav class="nav nav-scrolled">
     <div class="nav-wrapper nav-wrapper-scrolled">
-      <a href="index.html" class="nav-left w-inline-block"><img src="images/ttp-logo-white.webp" loading="lazy" sizes="(max-width: 767px) 100vw, 557.9861450195312px" srcset="images/35989bd0c9b2e54581e3e6724d7182c8_ttp-logo-white-p-500.webp 500w, images/ttp-logo-white.webp 558w" alt="The Talent People - White Logo" id="logo-white" class="logo-white logo-white-scrolled"><img src="images/ttp-logo-blue.webp" loading="lazy" sizes="(max-width: 767px) 100vw, 557.9861450195312px" srcset="images/a3a8660db32382a60730273d2a6b0034_ttp-logo-blue-p-500.webp 500w, images/ttp-logo-blue.webp 558w" alt="The Talent People - Blue Logo" class="logo-blue">
+      <a href="index.html" class="nav-left w-inline-block"><img src="images/ttp-logo-white.webp" loading="lazy" sizes="(max-width: 558px) 100vw, 558px" srcset="images/35989bd0c9b2e54581e3e6724d7182c8_ttp-logo-white-p-500.webp 500w, images/ttp-logo-white.webp 558w" alt="The Talent People - White Logo" id="logo-white" class="logo-white logo-white-scrolled"><img src="images/ttp-logo-blue.webp" loading="lazy" sizes="(max-width: 558px) 100vw, 558px" srcset="images/a3a8660db32382a60730273d2a6b0034_ttp-logo-blue-p-500.webp 500w, images/ttp-logo-blue.webp 558w" alt="The Talent People - Blue Logo" class="logo-blue">
         <h1 class="ttp-logo-text">The Talent People</h1>
       </a>
       <div class="nav-center">
@@ -141,6 +141,23 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = link;
       }, delay);
     });
+  });
+});
+</script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+$(document).ready(function () {
+  var slider_wrapper = new Swiper(".swiper-mb", {
+    wrapperClass: "swiper-wrapper-mb",
+    slideClass: "swiper-slide-mb",
+    navigation: {
+      nextEl: '.slide-next',
+      prevEl: '.slide-previous'
+    },
+    effect: 'fade',
+    speed: 700,
+    slidesPerView: 1,
+    loop: true,
   });
 });
 </script>
