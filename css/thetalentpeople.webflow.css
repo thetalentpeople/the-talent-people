@@ -3114,26 +3114,11 @@ ul {
 }
 
 .swiper-slide-gallery.jm-1 {
-  z-index: 5;
+  z-index: 6;
 }
 
 .swiper-slide-gallery.jm-2 {
   z-index: 4;
-  position: absolute;
-}
-
-.swiper-slide-gallery.jm-3 {
-  z-index: 3;
-  position: absolute;
-}
-
-.swiper-slide-gallery.jm-4 {
-  z-index: 2;
-  position: absolute;
-}
-
-.swiper-slide-gallery.jm-5 {
-  z-index: 1;
   position: absolute;
 }
 
@@ -3205,9 +3190,28 @@ ul {
   position: absolute;
 }
 
-.swiper-slide-gallery.pp-8 {
+.swiper-slide-gallery.pp-8, .swiper-slide-gallery.jm-6 {
   z-index: 1;
   position: absolute;
+}
+
+.swiper-slide-gallery.jm-5 {
+  z-index: 2;
+  position: absolute;
+}
+
+.swiper-slide-gallery.jm-4 {
+  z-index: 3;
+  position: absolute;
+}
+
+.swiper-slide-gallery.jm-3 {
+  z-index: 4;
+  position: absolute;
+}
+
+.swiper-slide-gallery.jm-2 {
+  z-index: 5;
 }
 
 .program-gallery-mb {
