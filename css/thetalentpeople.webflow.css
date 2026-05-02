@@ -486,10 +486,10 @@ ul {
 }
 
 .dot {
-  color: var(--ttp-blue);
-  vertical-align: sub;
   width: .3rem;
   height: .3rem;
+  color: var(--ttp-blue);
+  vertical-align: sub;
 }
 
 .header {
@@ -940,13 +940,13 @@ ul {
 
 .text-field {
   background-color: var(--ttp-form);
+  height: 3rem;
   color: var(--ttp-white);
   letter-spacing: .05rem;
   border: 0 solid #000;
   border-radius: 7px;
   justify-content: flex-start;
   align-items: center;
-  height: 3rem;
   margin-bottom: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1046,10 +1046,10 @@ ul {
 
 .submit {
   background-color: var(--ttp-blue);
-  color: var(--ttp-white);
-  border-radius: 7px;
   width: 100%;
   height: 3rem;
+  color: var(--ttp-white);
+  border-radius: 7px;
   margin-top: 2.5rem;
   font-family: "Nhaasgrotesktxpro 65 Md", sans-serif;
   font-size: 1.1rem;
@@ -1642,6 +1642,7 @@ ul {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 55px;
   position: absolute;
   inset: 0% 0% auto;
 }
@@ -2137,8 +2138,8 @@ ul {
 }
 
 .text-body.s7 {
-  color: var(--ttp-white);
   width: 700px;
+  color: var(--ttp-white);
 }
 
 .card-heading {
@@ -3218,6 +3219,40 @@ ul {
   display: none;
 }
 
+.banner {
+  background-color: #e97131e6;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-text-wrapper {
+  z-index: 1;
+  grid-column-gap: .5rem;
+  grid-row-gap: .5rem;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  position: absolute;
+}
+
+.banner-text {
+  color: var(--_jsit---jsit-text);
+  white-space: nowrap;
+  font-family: "Inter 18 Pt", Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.1rem;
+}
+
+.banner-bg {
+  opacity: .8;
+  background-color: #e97131;
+  position: absolute;
+}
+
 @media screen and (min-width: 1280px) {
   .hero-word {
     font-size: 6rem;
@@ -3963,6 +3998,10 @@ ul {
   .count-number-jsit {
     font-size: 7.7vw;
     line-height: 8vw;
+  }
+
+  .header-wrapper-jsit {
+    padding-top: 50px;
   }
 
   .jsit-logo {
@@ -4876,6 +4915,7 @@ ul {
     border-bottom-right-radius: 15px;
     width: 50vw;
     max-width: 300px;
+    padding-top: 7rem;
     padding-bottom: 2rem;
     padding-right: 1.5rem;
   }
@@ -5364,10 +5404,10 @@ ul {
   }
 
   .swiper-slide.jsit {
+    width: 100%;
     box-shadow: none;
     border-style: none;
     border-radius: 0;
-    width: 100%;
   }
 
   .slide-next.jsit {
@@ -5610,6 +5650,15 @@ ul {
   .program-gallery-nav {
     height: 8vw;
     font-size: 12px;
+  }
+
+  .banner {
+    height: 40px;
+  }
+
+  .banner-text {
+    font-size: 1rem;
+    line-height: 1rem;
   }
 }
 
@@ -5912,7 +5961,7 @@ ul {
   .hero-overlay-inner-jsit {
     grid-row-gap: 5vw;
     width: 52vw;
-    padding-top: 6.8rem;
+    padding-top: 6.5rem;
     padding-bottom: 1.8rem;
     padding-right: 5vw;
   }
@@ -6037,6 +6086,10 @@ ul {
   .count-number-jsit {
     font-size: 12vw;
     line-height: 12vw;
+  }
+
+  .header-wrapper-jsit {
+    padding-top: 45px;
   }
 
   .jsit-logo {
