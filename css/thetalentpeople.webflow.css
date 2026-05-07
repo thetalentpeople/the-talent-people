@@ -1408,7 +1408,7 @@ ul {
   align-items: flex-start;
   width: 400px;
   margin-left: -2.5rem;
-  padding: 9rem 2.5rem 2.5rem;
+  padding: 9rem 2.5rem 4rem;
   display: flex;
 }
 
@@ -3930,9 +3930,7 @@ ul {
     border-bottom-left-radius: 0;
     width: 350px;
     margin-left: 0;
-    padding-top: 7.5rem;
-    padding-left: 5vw;
-    padding-right: 2rem;
+    padding: 7.5rem 2rem 3.5rem 5vw;
   }
 
   .heading-jsit {
@@ -4916,7 +4914,7 @@ ul {
     width: 50vw;
     max-width: 300px;
     padding-top: 7rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     padding-right: 1.5rem;
   }
 
@@ -5962,7 +5960,7 @@ ul {
     grid-row-gap: 5vw;
     width: 52vw;
     padding-top: 6.5rem;
-    padding-bottom: 1.8rem;
+    padding-bottom: 2.5rem;
     padding-right: 5vw;
   }
 
