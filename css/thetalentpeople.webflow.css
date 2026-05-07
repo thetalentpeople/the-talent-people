@@ -1657,7 +1657,7 @@ ul {
 
 .footer-wrapper-jsit {
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   width: 90vw;
   max-width: 1200px;
   margin-left: auto;
@@ -3258,6 +3258,10 @@ ul {
   position: absolute;
 }
 
+.jsit-logo-footere {
+  width: 140px;
+}
+
 @media screen and (min-width: 1280px) {
   .hero-word {
     font-size: 6rem;
@@ -4503,6 +4507,10 @@ ul {
   .swiper-gallery {
     width: 80vw;
   }
+
+  .jsit-logo-footere {
+    width: 130px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -5672,6 +5680,10 @@ ul {
     font-size: 1rem;
     line-height: 1rem;
   }
+
+  .jsit-logo-footere {
+    width: 120px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -6503,6 +6515,10 @@ ul {
 
   .program-gallery-nav {
     font-size: 10px;
+  }
+
+  .jsit-logo-footere {
+    width: 100px;
   }
 }
 
