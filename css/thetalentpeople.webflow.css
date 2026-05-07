@@ -1408,7 +1408,7 @@ ul {
   align-items: flex-start;
   width: 400px;
   margin-left: -2.5rem;
-  padding: 9rem 2.5rem 2.5rem;
+  padding: 9rem 2.5rem 4rem;
   display: flex;
 }
 
@@ -1657,7 +1657,7 @@ ul {
 
 .footer-wrapper-jsit {
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   width: 90vw;
   max-width: 1200px;
   margin-left: auto;
@@ -1773,6 +1773,11 @@ ul {
 }
 
 .section-wrapper-jsit.cta {
+  padding-bottom: 10rem;
+}
+
+.section-wrapper-jsit.program-last {
+  padding-top: 7rem;
   padding-bottom: 10rem;
 }
 
@@ -2840,7 +2845,7 @@ ul {
   background-color: var(--_jsit---jsit-bg);
   border-radius: 1.5rem;
   flex-flow: column;
-  padding: 8vw 6vw;
+  padding: 8vw 6vw 10vw;
   display: flex;
 }
 
@@ -2851,7 +2856,7 @@ ul {
   border-radius: 1.5rem;
   flex-flow: column;
   grid-template-columns: 1.75fr 1fr;
-  padding: 8vw 6vw;
+  padding: 8vw 6vw 10vw;
   display: flex;
 }
 
@@ -3228,8 +3233,8 @@ ul {
 
 .banner-text-wrapper {
   z-index: 1;
-  grid-column-gap: .5rem;
-  grid-row-gap: .5rem;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
   flex-flow: row;
   justify-content: flex-start;
   align-items: center;
@@ -3251,6 +3256,10 @@ ul {
   opacity: .8;
   background-color: #e97131;
   position: absolute;
+}
+
+.jsit-logo-footere {
+  width: 140px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3372,7 +3381,7 @@ ul {
     max-width: 1200px;
   }
 
-  .section-wrapper-jsit.program {
+  .section-wrapper-jsit.program, .section-wrapper-jsit.program-last {
     padding-top: 10rem;
   }
 
@@ -3930,9 +3939,7 @@ ul {
     border-bottom-left-radius: 0;
     width: 350px;
     margin-left: 0;
-    padding-top: 7.5rem;
-    padding-left: 5vw;
-    padding-right: 2rem;
+    padding: 7.5rem 2rem 3.5rem 5vw;
   }
 
   .heading-jsit {
@@ -4053,6 +4060,10 @@ ul {
 
   .section-wrapper-jsit.s2 {
     padding-top: 7rem;
+  }
+
+  .section-wrapper-jsit.program-last {
+    padding-bottom: 8rem;
   }
 
   .flipcard-heading-jsit {
@@ -4467,7 +4478,7 @@ ul {
 
   .program-wrapper.image-right, .program-wrapper.image-left {
     border-radius: 1.2rem;
-    padding: 10vw 5vw;
+    padding: 10vw 5vw 12vw;
   }
 
   .gallery-image {
@@ -4495,6 +4506,10 @@ ul {
 
   .swiper-gallery {
     width: 80vw;
+  }
+
+  .jsit-logo-footere {
+    width: 130px;
   }
 }
 
@@ -4916,7 +4931,7 @@ ul {
     width: 50vw;
     max-width: 300px;
     padding-top: 7rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     padding-right: 1.5rem;
   }
 
@@ -5132,6 +5147,11 @@ ul {
   .section-wrapper-jsit.cta {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .section-wrapper-jsit.program-last {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
   }
 
   .flipcard-heading-jsit {
@@ -5660,6 +5680,10 @@ ul {
     font-size: 1rem;
     line-height: 1rem;
   }
+
+  .jsit-logo-footere {
+    width: 120px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5962,7 +5986,7 @@ ul {
     grid-row-gap: 5vw;
     width: 52vw;
     padding-top: 6.5rem;
-    padding-bottom: 1.8rem;
+    padding-bottom: 2.5rem;
     padding-right: 5vw;
   }
 
@@ -6148,6 +6172,11 @@ ul {
   .section-wrapper-jsit.cta {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .section-wrapper-jsit.program-last {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
   }
 
   .flipcard-heading-jsit {
@@ -6486,6 +6515,10 @@ ul {
 
   .program-gallery-nav {
     font-size: 10px;
+  }
+
+  .jsit-logo-footere {
+    width: 100px;
   }
 }
 
