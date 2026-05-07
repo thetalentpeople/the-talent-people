@@ -1642,7 +1642,7 @@ ul {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
+  padding-top: 55px;
   position: absolute;
   inset: 0% 0% auto;
 }
@@ -3220,20 +3220,22 @@ ul {
 }
 
 .banner {
-  background-color: #e97131;
+  background-color: #e97131e6;
   height: 45px;
+  position: relative;
   overflow: hidden;
 }
 
 .banner-text-wrapper {
+  z-index: 1;
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
-  background-color: #e97131;
   flex-flow: row;
   justify-content: flex-start;
   align-items: center;
   height: 100%;
   display: flex;
+  position: absolute;
 }
 
 .banner-text {
@@ -3241,8 +3243,14 @@ ul {
   white-space: nowrap;
   font-family: "Inter 18 Pt", Arial, sans-serif;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.1rem;
+}
+
+.banner-bg {
+  opacity: .8;
+  background-color: #e97131;
+  position: absolute;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3990,6 +3998,10 @@ ul {
   .count-number-jsit {
     font-size: 7.7vw;
     line-height: 8vw;
+  }
+
+  .header-wrapper-jsit {
+    padding-top: 50px;
   }
 
   .jsit-logo {
@@ -4903,6 +4915,7 @@ ul {
     border-bottom-right-radius: 15px;
     width: 50vw;
     max-width: 300px;
+    padding-top: 7rem;
     padding-bottom: 2rem;
     padding-right: 1.5rem;
   }
@@ -5638,6 +5651,15 @@ ul {
     height: 8vw;
     font-size: 12px;
   }
+
+  .banner {
+    height: 40px;
+  }
+
+  .banner-text {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5939,7 +5961,7 @@ ul {
   .hero-overlay-inner-jsit {
     grid-row-gap: 5vw;
     width: 52vw;
-    padding-top: 6.8rem;
+    padding-top: 6.5rem;
     padding-bottom: 1.8rem;
     padding-right: 5vw;
   }
@@ -6064,6 +6086,10 @@ ul {
   .count-number-jsit {
     font-size: 12vw;
     line-height: 12vw;
+  }
+
+  .header-wrapper-jsit {
+    padding-top: 45px;
   }
 
   .jsit-logo {
