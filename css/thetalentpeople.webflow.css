@@ -1408,7 +1408,7 @@ ul {
   align-items: flex-start;
   width: 400px;
   margin-left: -2.5rem;
-  padding: 9rem 2.5rem 4rem;
+  padding: 9rem 2.5rem 2.5rem;
   display: flex;
 }
 
@@ -1529,6 +1529,21 @@ ul {
   width: 8vw;
 }
 
+.cta-button-jsit {
+  color: #fff;
+  background-color: #8e61db;
+  border-radius: 10px;
+  padding: .8rem 2.5rem;
+  font-family: "Inter 18 Pt", Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.cta-button-jsit.employee {
+  background-color: var(--_jsit---blue);
+}
+
 .brand-image-jsit {
   width: 100%;
 }
@@ -1627,7 +1642,7 @@ ul {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 55px;
+  padding-top: 60px;
   position: absolute;
   inset: 0% 0% auto;
 }
@@ -1642,7 +1657,7 @@ ul {
 
 .footer-wrapper-jsit {
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: 90vw;
   max-width: 1200px;
   margin-left: auto;
@@ -1666,6 +1681,10 @@ ul {
   font-weight: 600;
   line-height: 1.3rem;
   text-decoration: none;
+}
+
+.footer-text-jsit.white {
+  color: #fff;
 }
 
 .the-talent-people-logo {
@@ -1754,11 +1773,6 @@ ul {
 }
 
 .section-wrapper-jsit.cta {
-  padding-bottom: 10rem;
-}
-
-.section-wrapper-jsit.program-last {
-  padding-top: 7rem;
   padding-bottom: 10rem;
 }
 
@@ -2826,7 +2840,7 @@ ul {
   background-color: var(--_jsit---jsit-bg);
   border-radius: 1.5rem;
   flex-flow: column;
-  padding: 8vw 6vw 10vw;
+  padding: 8vw 6vw;
   display: flex;
 }
 
@@ -2837,7 +2851,7 @@ ul {
   border-radius: 1.5rem;
   flex-flow: column;
   grid-template-columns: 1.75fr 1fr;
-  padding: 8vw 6vw 10vw;
+  padding: 8vw 6vw;
   display: flex;
 }
 
@@ -3206,22 +3220,20 @@ ul {
 }
 
 .banner {
-  background-color: #e97131e6;
+  background-color: #e97131;
   height: 45px;
-  position: relative;
   overflow: hidden;
 }
 
 .banner-text-wrapper {
-  z-index: 1;
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
+  grid-column-gap: .5rem;
+  grid-row-gap: .5rem;
+  background-color: #e97131;
   flex-flow: row;
   justify-content: flex-start;
   align-items: center;
   height: 100%;
   display: flex;
-  position: absolute;
 }
 
 .banner-text {
@@ -3229,12 +3241,8 @@ ul {
   white-space: nowrap;
   font-family: "Inter 18 Pt", Arial, sans-serif;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.1rem;
-}
-
-.jsit-logo-footer {
-  width: 150px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3356,7 +3364,7 @@ ul {
     max-width: 1200px;
   }
 
-  .section-wrapper-jsit.program, .section-wrapper-jsit.program-last {
+  .section-wrapper-jsit.program {
     padding-top: 10rem;
   }
 
@@ -3914,7 +3922,9 @@ ul {
     border-bottom-left-radius: 0;
     width: 350px;
     margin-left: 0;
-    padding: 7.5rem 2rem 3.5rem 5vw;
+    padding-top: 7.5rem;
+    padding-left: 5vw;
+    padding-right: 2rem;
   }
 
   .heading-jsit {
@@ -3952,6 +3962,12 @@ ul {
     line-height: 1.8rem;
   }
 
+  .cta-button-jsit {
+    padding: .7rem 2.3rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
   .count-jsit {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
@@ -3974,10 +3990,6 @@ ul {
   .count-number-jsit {
     font-size: 7.7vw;
     line-height: 8vw;
-  }
-
-  .header-wrapper-jsit {
-    padding-top: 50px;
   }
 
   .jsit-logo {
@@ -4029,10 +4041,6 @@ ul {
 
   .section-wrapper-jsit.s2 {
     padding-top: 7rem;
-  }
-
-  .section-wrapper-jsit.program-last {
-    padding-bottom: 8rem;
   }
 
   .flipcard-heading-jsit {
@@ -4447,7 +4455,7 @@ ul {
 
   .program-wrapper.image-right, .program-wrapper.image-left {
     border-radius: 1.2rem;
-    padding: 10vw 5vw 12vw;
+    padding: 10vw 5vw;
   }
 
   .gallery-image {
@@ -4475,10 +4483,6 @@ ul {
 
   .swiper-gallery {
     width: 80vw;
-  }
-
-  .jsit-logo-footer {
-    width: 130px;
   }
 }
 
@@ -4899,8 +4903,7 @@ ul {
     border-bottom-right-radius: 15px;
     width: 50vw;
     max-width: 300px;
-    padding-top: 7rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     padding-right: 1.5rem;
   }
 
@@ -4964,6 +4967,13 @@ ul {
 
   .brand-13 {
     width: 12vw;
+  }
+
+  .cta-button-jsit {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
   }
 
   .brand-15 {
@@ -5109,11 +5119,6 @@ ul {
   .section-wrapper-jsit.cta {
     padding-top: 8rem;
     padding-bottom: 8rem;
-  }
-
-  .section-wrapper-jsit.program-last {
-    padding-top: 5rem;
-    padding-bottom: 6rem;
   }
 
   .flipcard-heading-jsit {
@@ -5633,19 +5638,6 @@ ul {
     height: 8vw;
     font-size: 12px;
   }
-
-  .banner {
-    height: 40px;
-  }
-
-  .banner-text {
-    font-size: 1rem;
-    line-height: 1rem;
-  }
-
-  .jsit-logo-footer {
-    width: 110px;
-  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5947,8 +5939,8 @@ ul {
   .hero-overlay-inner-jsit {
     grid-row-gap: 5vw;
     width: 52vw;
-    padding-top: 6.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 6.8rem;
+    padding-bottom: 1.8rem;
     padding-right: 5vw;
   }
 
@@ -6007,6 +5999,11 @@ ul {
 
   .brand-13 {
     width: 18vw;
+  }
+
+  .cta-button-jsit {
+    font-size: .95rem;
+    line-height: .95rem;
   }
 
   .brand-15 {
@@ -6069,10 +6066,6 @@ ul {
     line-height: 12vw;
   }
 
-  .header-wrapper-jsit {
-    padding-top: 45px;
-  }
-
   .jsit-logo {
     width: 130px;
   }
@@ -6129,11 +6122,6 @@ ul {
   .section-wrapper-jsit.cta {
     padding-top: 6rem;
     padding-bottom: 6rem;
-  }
-
-  .section-wrapper-jsit.program-last {
-    padding-top: 4rem;
-    padding-bottom: 5rem;
   }
 
   .flipcard-heading-jsit {
@@ -6472,10 +6460,6 @@ ul {
 
   .program-gallery-nav {
     font-size: 10px;
-  }
-
-  .jsit-logo-footer {
-    width: 100px;
   }
 }
 
