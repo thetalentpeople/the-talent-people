@@ -1776,6 +1776,11 @@ ul {
   padding-bottom: 10rem;
 }
 
+.section-wrapper-jsit.program-last {
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+}
+
 .flipcard-heading-jsit {
   color: #fff;
   font-family: "Inter 18 Pt", Arial, sans-serif;
@@ -2840,7 +2845,7 @@ ul {
   background-color: var(--_jsit---jsit-bg);
   border-radius: 1.5rem;
   flex-flow: column;
-  padding: 8vw 6vw;
+  padding: 8vw 6vw 10vw;
   display: flex;
 }
 
@@ -2851,7 +2856,7 @@ ul {
   border-radius: 1.5rem;
   flex-flow: column;
   grid-template-columns: 1.75fr 1fr;
-  padding: 8vw 6vw;
+  padding: 8vw 6vw 10vw;
   display: flex;
 }
 
@@ -3372,7 +3377,7 @@ ul {
     max-width: 1200px;
   }
 
-  .section-wrapper-jsit.program {
+  .section-wrapper-jsit.program, .section-wrapper-jsit.program-last {
     padding-top: 10rem;
   }
 
@@ -4053,6 +4058,10 @@ ul {
     padding-top: 7rem;
   }
 
+  .section-wrapper-jsit.program-last {
+    padding-bottom: 8rem;
+  }
+
   .flipcard-heading-jsit {
     font-size: 1.15rem;
     line-height: 1.4rem;
@@ -4465,7 +4474,7 @@ ul {
 
   .program-wrapper.image-right, .program-wrapper.image-left {
     border-radius: 1.2rem;
-    padding: 10vw 5vw;
+    padding: 10vw 5vw 12vw;
   }
 
   .gallery-image {
@@ -5130,6 +5139,11 @@ ul {
   .section-wrapper-jsit.cta {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .section-wrapper-jsit.program-last {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
   }
 
   .flipcard-heading-jsit {
@@ -6146,6 +6160,11 @@ ul {
   .section-wrapper-jsit.cta {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .section-wrapper-jsit.program-last {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
   }
 
   .flipcard-heading-jsit {
